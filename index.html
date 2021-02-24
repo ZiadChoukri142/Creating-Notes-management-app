@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-grid.css">
+    <title>Document</title>
+    <style>
+        .my-container {
+            border: 5px solid #000000 ;
+            height: auto;
+            padding: 80px;
+        }
+
+        .row {
+            border: 0.1px dotted red;
+            height: 250px;
+        }
+        .my-row1 {
+            border: 0.1px dotted green;
+            height: 75px;
+        }
+        .my-row2 {
+            border: 0.1px dotted blue;
+            height: 50px;
+        }
+        .my-row3 {
+            border: 0.1px dotted red;
+            height: 250px;
+        }
+
+        .my-col1 {
+            border: 0.1px dotted green ;
+        }
+        .my-col2{
+            border: 0.1px dotted red ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "container my-container">
+        <div class="row justify-content-between my-row1">
+            <div class="col-2 my-col1">
+                Row 1 col 1
+            </div>
+            <div class="col-2 my-col1">
+                Row 1 col 2 
+            </div>
+        </div>
+        <div class="row my-row2">
+            <div class="col"></div>
+        </div>
+        <div class="row justify-content-between my-row3">
+            <div class="col-3 my-col2"></div>
+            <div class="col-3 my-col2"></div>
+            <div class="col-3 my-col2"></div>
+        </div>
+        <div class="row my-row2">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+</body>
+
+</html>
